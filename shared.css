@@ -1,0 +1,99 @@
+/******GENERAL STYLING*********/
+/* Body  */
+body {
+    margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
+}
+
+/* Heading 1 elements */
+h1 {
+    text-transform: uppercase; /* Capitalizing all h1 headings */
+    font-family: "Trebuchet MS", Optima; /* Sets the font family of all h1 headings */
+    text-align: center; /* Center all hi elements */
+    margin-top:  3%; /* Add a small margin above h1 elements */
+    color: #!a1a1a;
+}
+
+/* Heading 1 element hover effect */
+h1:hover {
+    filter: grayscale(5%); /*Add slightly gray filter to the h1 headings when hovered over*/
+    transform: scale(1.1); /*When the h1 elements are hovered over they increase in size by 1.1 */
+    transition: transform 1s; /* This cause the transformation to last 1 second */
+}
+
+/* Styling for portfolio title text */
+.white-text {
+    color: #fff; /* This is used to change the color of the portfolio title text */
+}
+
+/* Paragraph elements */
+p {
+    font-family: Perpetua, Rockwell Extra Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify; /*justify text within paragraph element */
+    letter-spacing: 1px; /* This expands the text slightly */
+    font-size: 20px;
+    padding-left: 20px; /* Adds padding to the left of the paragraph element */
+    padding-right: 20px; /* Adds padding to the right of the paragraph element */
+}
+
+/* Paragraph element hover effect */
+p:hover {
+    transition: transform 1s; /* This makes the transform effect last 1 second */
+    transform: scale(1.01); /* This makes the paragraph increase slightly in size when hovered over */
+}
+
+/* Center class hover effect - This only affects the quote, github link, and footer */
+.center {
+    text-align: center; /* This center aligns the text */
+}
+
+/* Center class hover effect - This only affects the quote, github link, and footer */
+.center:hover {
+    transition: transform 2s; /* This makes the transform effect last 2 seconds */
+    transform: scale(1.1); /* This makes the elements with class "center" increase in size by 1.1 when hovered over */
+}
+
+/* Anchor elements */
+a {
+    color: blue; /* This ensures all links are blue */
+}
+
+/*Quotation elements */
+q {
+    font-style: italic; /* This makes the quote italicized */
+}
+
+/* Image elements */
+img {
+  filter: grayscale(75%); /* This rids our pictures of 75% of their color */
+  border-radius: 8px; /*Gives all images slightly rounded corners */
+  max-width: 100%;
+  height: 340px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* Image element hover effects */
+img:hover {
+    filter: grayscale(5%);
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+/* The media rule is used in media queries to apply different styles fo different media/types of devices */
+/* On screen 576px and smaller images will be 100px tall and centered vertically in the column */
+@media screen and (max-width: 576px) {
+   img {
+       height: 100px
+       margin-top: 150px
+   }
+}
+
+/* Styling for footer element */
+footer {
+    padding: 2%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
+    background-color: white;
+}
+
+/***** END OF GENERAL STYLING *****/
+
